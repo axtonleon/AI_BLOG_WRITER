@@ -82,7 +82,7 @@ Start the development server using Uvicorn:
 
 ```bash
 cd fastapi_blog_api
-uvicorn app.main:app --reload
+uvicorn main:app --reload
 ```
 
 The API is now available at: `http://127.0.0.1:8000`
