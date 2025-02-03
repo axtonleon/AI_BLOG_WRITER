@@ -2,7 +2,7 @@ import pytest
 import httpx
 from fastapi import FastAPI, status
 from fastapi.testclient import TestClient
-from ..main import app # Assuming your app is created in main.py
+from fastapi_blog_api.main import app 
 from app.database import Base, engine
 from sqlalchemy.orm import Session
 from app.core.security import get_password_hash
