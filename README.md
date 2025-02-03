@@ -240,7 +240,7 @@ pip install -e .
 python -m pytest tests
 ```
 
-Ensure all tests pass before deploying or making significant changes.
+
 
 ## Design Decisions and Rationale
 
