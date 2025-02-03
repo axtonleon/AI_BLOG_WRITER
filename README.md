@@ -71,10 +71,10 @@ pip install -r requirements.txt
     *   `DATABASE_URL`: The database URL for SQLAlchemy.
     *   `TEST_DATABASE_FILE`: The name of the database file for testing.
     *   `JINA_API_KEY`: The API key for using Jina AI features. (You will need to obtain this key separately from the Jina AI website).
-    *   `OPENAI_API_KEY`: The API key for using OpenAI features if needed by the `smoltools` library.
+    *   `OPENAI_API_KEY`: The API key for using OpenAI features needed by the `smoltools` library.
     *   `BASE_URL`: The base URL for API endpoints (default is `http://localhost:8000/api/v1`).
 
-    **Note:** The `.env` file should be in the same directory as your `main.py` or `config.py` file, or in the directory that you run your server from. It is recommended that you put your `.env` file in the same directory as the `fastapi_blog_api` folder.
+    **Note:** The `.env` file should be in the same directory as  `main.py` file, or in the directory that you run your server from. It is recommended that you put your `.env` file in the same directory as the `fastapi_blog_api` folder.
 
 ### Run the application
 
