@@ -236,6 +236,7 @@ This project uses `pytest` for testing. To run the tests, execute:
 
 ```bash
 cd fastapi_blog_api
+pip install -e .
 python -m pytest tests
 ```
 
